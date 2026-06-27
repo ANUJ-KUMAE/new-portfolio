@@ -78,7 +78,7 @@ export function Projects() {
                           ))}
                         </div>
 
-                        <div className="flex items-center gap-3">
+                        {/* <div className="flex items-center gap-3">
                           <motion.a
                             href={project.liveUrl}
                             target="_blank"
@@ -100,7 +100,7 @@ export function Projects() {
                           >
                             <FaGithub className="w-4 h-4" />
                           </motion.a>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className={`absolute -bottom-20 -right-20 w-40 h-40 bg-gradient-to-br ${project.gradient} rounded-full blur-3xl opacity-0 group-hover:opacity-20 transition-opacity duration-500`}></div>

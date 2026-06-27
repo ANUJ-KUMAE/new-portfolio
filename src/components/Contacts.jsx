@@ -79,7 +79,7 @@ export function Contacts() {
                   </div>
                   <div>
                     <div className="text-sm text-gray-500">Email</div>
-                    <div className="text-white">anuj.kumar@example.com</div>
+                    <div className="text-white">anuj.muz0405@gmail.com</div>
                   </div>
                 </motion.div>
 
@@ -92,7 +92,7 @@ export function Contacts() {
                   </div>
                   <div>
                     <div className="text-sm text-gray-500">Phone</div>
-                    <div className="text-white">+91 98765 43210</div>
+                    <div className="text-white">6204554968</div>
                   </div>
                 </motion.div>
 
@@ -105,7 +105,7 @@ export function Contacts() {
                   </div>
                   <div>
                     <div className="text-sm text-gray-500">Location</div>
-                    <div className="text-white">Chennai, India</div>
+                    <div className="text-white">Bangalore, India</div>
                   </div>
                 </motion.div>
               </div>

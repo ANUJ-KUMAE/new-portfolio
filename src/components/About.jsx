@@ -70,7 +70,7 @@ export function About() {
                             About Me
                          </motion.div>
 
-                         <motion.div
+                         {/* <motion.div
                             initial={{opacity: 0, y: 20}}
                             animate={isView ? {opacity: 1, y: 0} : {}}
                             transition={{duration: 0.5}}
@@ -79,7 +79,7 @@ export function About() {
                            MCA graduate from VIT Chennai with hands-on experience in MERN
                            stack development. I build scalable, responsive applications with
                            modern UI and robust backend systems.
-                         </motion.div>
+                         </motion.div> */}
 
                          <motion.p
                           initial={{ opacity: 0, y: 20 }}
@@ -87,10 +87,10 @@ export function About() {
                           transition={{ delay: 0.6 }}
                           className="text-gray-400 text-base sm:text-lg mb-8 leading-relaxed"
                         >
-                          Passionate about creating seamless user experiences and solving
-                          complex problems with clean, efficient code. Always learning and
-                          exploring new technologies to stay ahead in the ever-evolving tech
-                          landscape.
+                        Full-Stack Developer with 1.9+ years of professional experience building scalable web and mobile applications. Skilled
+in developing RESTful APIs, working with Databricks for app deployment, and delivering end-to-end solutions across
+frontend and backend. A collaborative team player committed to writing clean, maintainable code and continuously
+growing as an engineer.
                         </motion.p>
 
                         <motion.div

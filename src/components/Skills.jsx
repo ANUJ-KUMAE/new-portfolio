@@ -48,11 +48,11 @@ export function Skills() {
                               </h3>
                             </div>
 
-                            <div className="relative space-y-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div className="relative grid grid-cols-1 sm:grid-cols-2 gap-3 auto-rows-fr">
                                 {skill.skills.map((s, index) => (
                                     <div
                                       key={index}
-                                      className="group flex items-center gap-4 p-4 rounded-2xl 
+                                      className="group flex items-center gap-4 p-4 rounded-2xl h-full 
                                       bg-gradient-to-br from-slate-800/60 to-slate-900/60 
                                       border border-white/10 
                                       hover:border-purple-500/30 
