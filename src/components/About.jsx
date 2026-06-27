@@ -1,6 +1,7 @@
 import { useInView, motion} from "framer-motion";
 import { Computer, ComputerIcon, Rocket, RocketIcon } from "lucide-react";
 import { useRef } from "react";
+import profilePic from "../assets/Anuj_Profile_Pic.png";
 
 export function About() {
     const ref = useRef(null);
@@ -22,7 +23,7 @@ export function About() {
                             <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-500 rounded-3xl blur-2xl opacity-30 "></div>
                             <div className="relative w-64 h-64 overflow-hidden border-2 border-purple-500/30 shadow-2xl rounded-3xl md:w-80 md:h-80 lg:w-96 lg:h-96">
                                 <img
-                                  src="src/assets/Anuj_Profile_Pic.png"
+                                  src={profilePic}
                                   alt="Anuj Kumar"
                                   className="w-full h-full object-cover object-top"
                                 />
