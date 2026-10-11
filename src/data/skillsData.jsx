@@ -1,14 +1,15 @@
-import { Code2, Database, Server, Wrench } from "lucide-react";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { Cloud, Code2, Database, Server, Wrench } from "lucide-react";
+import { BiLogoKubernetes, BiLogoPostgresql } from "react-icons/bi";
 import { BsJavascript, BsTypescript } from "react-icons/bs";
-import { DiGithub, DiMongodb, DiMysql } from "react-icons/di";
+import { CiCloud } from "react-icons/ci";
+import { DiAws, DiDocker, DiGithub, DiMongodb, DiMysql } from "react-icons/di";
 import { FaAngular, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
 import { GiRestingVampire } from "react-icons/gi";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiAegisauthenticator, SiDart, SiExpress, SiLibrariesdotio, SiMongoose, SiPostman, SiRedux } from "react-icons/si";
 import { TbBrandDatabricks, TbBrandReactNative } from "react-icons/tb";
-import { VscCode } from "react-icons/vsc";
+import { VscCode, VscGithubAction } from "react-icons/vsc";
 
 const SkillsData = [
   {
@@ -56,6 +57,19 @@ const SkillsData = [
       { name: "Mongoose", icon: SiMongoose, color: "#F06529" },
       { name: "MySQL", icon: DiMysql, color: "#0075A8" },
       { name: "PostgreSQL", icon: BiLogoPostgresql, color: "#0075A8" },
+    ],
+  },
+  {
+    title: "Cloud & DevOps:",
+    icon: Cloud,
+    color: "from-cyan-600 to-cyan-400",
+    skills: [
+      { name: "Git", icon: DiGithub, color: "#47A248" },
+      { name: "CI/CD", icon: CiCloud, color: "#0075A8" },
+      { name: "GitHub Actions", icon: VscGithubAction, color: "#0075A8" },
+      { name: "AWS", icon: DiAws, color: "#F06529" },
+      { name: "Docker", icon: DiDocker, color: "#0075A8" },
+      { name: "Kubernetes", icon: BiLogoKubernetes, color: "#0075A8" },
     ],
   },
   {
